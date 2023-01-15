@@ -17,7 +17,6 @@ for i in chunks(img, 2):
 	first_row = i[0]
 	second_row = i[1]
 	for i in range(len(first_row)):
-
 		color_first = calculateBG(first_row[i], bg)
 		color_second = calculateBG(second_row[i], bg)
 
